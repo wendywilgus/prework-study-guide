@@ -10,6 +10,7 @@
   <body>
     <header id="top">
       <h1>Prework Study Guide</h1>
+      <h2>✨ Open the Console to See What's Happening ✨</h2>
     </header>
     <main>
       <section class="card" id="html-section">
@@ -57,14 +58,46 @@
       <section class="card" id="javascript-section">
           <h2>JavaScript</h2>
           <ul>
-            <li>Enter your JavaScript notes here</li>
+            <li>JavaScript is the tool that takes a static HTML/CSS webpage and makes it interactive. Every time you do something with a webpage, such as click a button, retrieve data, or fill out a form, JavaScript is at work!
+            </li>
+            <li>basic JavaScript features: variables, strings, and data types</li>
+            <li>Additional reading on JS can be found <a href="https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/JavaScript_basics"> here </a> and <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Data_structures">here.</a>
+            </li>
+            <li>Console:  refers to a test environment that developers use to check out their code</li>
+            <li>Read more about console log <a href="https://developer.mozilla.org/en-US/docs/Web/API/Console/log">here.</a></li>
+            <li>JavaScript is linked between the footer and body elements of the HTML file at the bottom of the file.</li>
+            <li>Control flow is the order in which a computer executes code in a script. In JavaScript, code runs from the first statement at the top of the page, down to the last statement at the bottom of the page. </li>
+            <li>Control flow can be interrupted, however. We can use conditional statements and loops to control the order in which code is executed, or if it is even executed at all.</li>
+            <li>When the computer encounters an if statement in a JavaScript file, it will check to see if the condition that we provide is truthy. If it is, then it will do whatever action we ask it to do in between the curly brackets. If the condition isn’t true or has a value that isn’t truthy, then the computer will ignore whatever is in between the curly brackets and move on.</li>
+            <li>What exactly do we mean by “truthy” and “falsy” in Javascript? A value is considered falsy if it is one of the following values: 0, -0, On, "", null, undefined, NaN, or a Boolean data type with the value of false. All other values, including a Boolean with the value of true, are considered truthy. To learn more about truthy and falsy values, visit the <a href="https://developer.mozilla.org/en-US/docs/Glossary/Truthy">MDN Web Docs on truthy.</a></li>
+            <li>array: a single variable that is used to hold a group of data. Arrays are typically used to hold data that is related in some way; used to evaluate a dozen or even hundreds of values at a time</li>
+            <li>index: a unique number that tells the location of the data item in the array</li>
+            <li>In JavaScript and many other programming languages, arrays are zero-indexed and sequential. This means that the first item in any array has an index of 0, not 1. The indices, or location identifiers, will always be whole numbers that increase by 1 each time.</li>
+            <li>Loops: Imagine how tedious it would be to write this code manually if we had an array that contained 100 or even 1,000 items! In this case, the most efficient way to do this is to use loops, of which there are several types.</li>
+            <li>A for loop contains the following three important statements:
+                <ol>
+                  <li>The starting point for our loop. Since we want to start at the beginning of the array, we declare a variable x and give it a value of 0 (because the first index of an array is always 0), as shown in the following line of code: var x = 0</li>
+                  <li>The second statement is the condition. As long as the number in the variable x is less than the length of the array, the loop will keep running. This will allow the loop to execute one time for each item in the array. </li>
+                  <li>The final statement is what allows the array to iterate over each item. Since indices follow a predictable pattern, we know the number increases by 1 each time. The code x++ is a shortcut way of writing x+1. Now every time the code loops, x will increase by 1.</li>
+                </ol>
+
+            </li>
           </ul>
       </section>
       
+      <section class="card" id+"javascript-section">
+        <h2>Chrome DevTools</h2>
+        <ul>
+          <li>right-click anywhere in the browser window and select "Inspect" from the menu</li>
+          <li>You can also open Chrome DevTools using keyboard commands. If you’re using macOS, you can press Command+Option+I,</li>
+          
+        </ul>
+      </section>
     </main>
 
     <footer>
       <p>I can code!</p>
     </footer>
+    <script src="./assets/script.js"></script>
   </body>
 </html>
