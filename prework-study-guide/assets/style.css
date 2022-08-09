@@ -2,6 +2,13 @@
     margin: 0;
     padding: 0;
 }
+.image-cat {
+    display: block;
+    height: 50px;
+    width: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
 header,
 footer {
     width: 100%;
@@ -13,10 +20,17 @@ h1,
 h2 {
     text-align: center;
 }
-img {
+.image-wide {
+    display: block;
+    height: 300px;
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.image-tall {
     display: block;
     height: 200px;
-    width: 200px;
+    width: 300px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -27,10 +41,20 @@ ul {
 p {
     text-align: center;
     font-size: 30px;
-  }
-  .card {
+}
+.card {
     width: 80%;
     margin: 40px auto;
     border: 5px solid gray;
     box-shadow: 5px 10px #888888;
-  }
+}
+
+.image-PR {
+    outline: black 1px;
+    height: 300px;
+    width: 600px;
+}
+.image-merge {
+    height: 200px;
+    width: 400px;
+}
